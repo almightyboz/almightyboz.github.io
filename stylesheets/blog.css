@@ -1,0 +1,48 @@
+html{
+  color: #F1E8DC;
+}
+
+div.header-ribbon{
+  width: 75%;
+  height: 10%;
+  float: right;
+  position: static;
+  border: 4px solid #800020;
+  background-color: #800020;
+  color: white;
+
+}
+
+div.header-ribbon  h2 {
+  font-family: "Futura";
+  color: #FFFF32;
+}
+
+.header-ribbon  p {
+  color: #FFFFAD;
+}
+
+.blog-post {
+  width: 50%;
+  height: 75%;
+  text-indent: 5px;
+  background-color: #f6f0e8;
+  padding: 12px;
+  border-style: inset;
+  margin: 8px;
+  color: black;
+  float: right;
+}
+
+article {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 100px solid #008060;
+  border-bottom: 50px solid transparent;
+  position: fixed;
+}
+
+article p {
+  font-size: 10px;
+}
