@@ -10,6 +10,8 @@ div.header-ribbon{
   border: 4px solid #800020;
   background-color: #800020;
   color: white;
+  padding: 1px;
+  margin: 2px;
 
 }
 
@@ -35,14 +37,10 @@ div.header-ribbon  h2 {
 }
 
 article {
-  width: 0;
-  height: 0;
-  border-top: 50px solid transparent;
-  border-left: 100px solid #008060;
-  border-bottom: 50px solid transparent;
+  width: 30;
+  height: 10;
+  border: 1px solid #008060;
   position: fixed;
+  top: 60%;
 }
 
-article p {
-  font-size: 10px;
-}
