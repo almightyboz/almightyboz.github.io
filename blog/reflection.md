@@ -1,0 +1,2 @@
+[This is my site](http://almightyboz.github.io)
+I honestly had a lot of difficulty with this challenge. I had trouble understanding the CSS and how to get it to work. The cascading structure in particular bogs me down. I feel frustrated because I know my site isn't as good as it could be. But, it's the minimum value product, and I have accomplished the tasks as required. I hope that I can pretty it up a little bit with the more that I learn going forward.
