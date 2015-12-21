@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <title>BosakowskBlog</title>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+  </head>
+
+  <body>
+
+    <div class="header-ribbon">
+      <h2><!-- Title of post-->CSS Positioning Blues</h2>
+      <p><!-- Date that post was published--><span id="date">December 21, 2015</span></p>
+      <p><!-- Article subheading -->In which containers are imperfect</p>
+    </div>
+
+    <section class="blog-post"><p><!-- Blog post-->
+    Static - Default CSS positioning. Not affected by top, bottom, left, and right properties. Positioned according to the normal cascading flow of the page.
+    Relative - Positioned relative to its normal(static) position, based on other positioning elements. (E.g.
+    position: relative;
+    top: 10px;
+    would shift the element's position 10 pixels down from where it would normally be.)
+    Fixed - Stays in the same place on the viewport even if the page is scrolled. Needs top, right, bottom, and left to position the element. Used in ads, and current Wikipedia funding drive.
+    Absolute - Positioned relative to nearest positioned ancestor in the HTML. If no positioned ancestors, uses document body and moves down with page scrolling
+  </p></section>
+
+    <aside><!-- Navigation pane for site --></aside>
+
+    <aside><!-- Recent cool pictures--></aside>
+
+    <article>
+      <a href="https://github.com/almightyboz">I'm on GitHub</a>
+      <a href="https://twitter.com/allmightyboz">I'm also on Twitter</a>
+    </article>
+
+  </body>
+
+</html>
+
