@@ -2,8 +2,8 @@ html{
   color: #F1E8DC;
 }
 
-div.header-ribbon{
-  width: 75%;
+section.header-ribbon{
+  width: 85%;
   height: 10%;
   float: right;
   position: static;
@@ -15,7 +15,7 @@ div.header-ribbon{
 
 }
 
-div.header-ribbon  h2 {
+section.header-ribbon h2 {
   font-family: "Futura";
   color: #FFFF32;
 }
@@ -25,7 +25,7 @@ div.header-ribbon  h2 {
 }
 
 .blog-post {
-  width: 50%;
+  width: 65%;
   height: 75%;
   text-indent: 5px;
   background-color: #f6f0e8;
@@ -36,11 +36,15 @@ div.header-ribbon  h2 {
   float: right;
 }
 
+.blog-post p span {
+  font-family: italic;
+}
+
 article {
   width: 30;
   height: 10;
   border: 1px solid #008060;
   position: fixed;
-  top: 60%;
+  top: 75%;
 }
 
