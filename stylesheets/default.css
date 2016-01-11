@@ -1,29 +1,84 @@
-body{
-  color: #F1E8DC;
-}
+/*
+html {
+  margin: 5px;
+  padding: 10px;
+} */
 
-.book-text {
-  text-indent: 50px;
-  font-family: "Book Antiqua";
+p {
+  font-family: Georgia, serif;
   font-size: 11pt;
-  color: black;
-  margin: 50px;
-  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-family: Georgia, serif;
+  font-size: 12pt;
+}
+
+header{
+  background-color: #e3e3e3;
+}
+/*
+main {
   position: relative;
-  left :125px;
+}
+*/
+header img{
+  left: 0;
+  top: 0;
+  padding: 2em;
+  width: 18px;
+  height: 10px;
 }
 
-.book-text span {
-  font-family: serif;
+header h1{
+  position: relative;
+  left: 65%;
+  font-family: Georgia, serif;
+  padding-right: 5em;
+  padding-left: 5em;
 }
 
-.page {
+li {
+  font-family: Georgia, serif;
+  font-size: 11 pt;
+}
+
+div.navbar{
+  height: 5px;
+  top: 15%;
   width: 100%;
-  height: 400px;
-  background-image: url("http://www.trollunteer.org/wp-content/uploads/2015/03/book-01-cleaned-full.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-color: purple;
 }
 
+nav.button{
+  background-color: #d3d3d3;
+  padding: 10px;
+  margin: 15px;
+  width: 30px;
+  float: left;
+}
 
+nav.blog{
+  background-color: #dbdbdb;
+  position: absolute;
+  left: 0;
+  top: 15%;
+  width: 10%;
+}
+
+main section{
+  background-color: #e3e3e3;
+  position: relative;
+  padding: 5px;
+  margin: 10px;
+}
+
+section.recco{
+  float: right;
+  width: 15%
+}
+
+section.bio{
+  float: right;
+  width: 20%;
+}
