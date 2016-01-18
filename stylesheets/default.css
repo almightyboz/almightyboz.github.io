@@ -43,22 +43,19 @@ div.top-navbar{
   width: 100%;
 }
 
-li {
-  font-family: Georgia, serif;
-  font-size: 11 pt;
+section.bio{
+  width: 50em;
 }
 
-
-nav.button{
-  background-color: #d3d3d3;
+nav.top-navbar{
+  background-color: #326872;
   padding: 10px;
   margin: 15px;
 }
 
-nav.blog{
-  background-color: #dbdbdb;
-  top: 15%;
-  width: 10%;
+li {
+  font-family: Georgia, serif;
+  font-size: 11 pt;
 }
 
 section{
@@ -67,10 +64,17 @@ section{
   margin: 10px;
 }
 
-section.recco{
-  width: 15%
+
+nav.blog-index{
+  background-color: #dbdbdb;
+  top: 15%;
+  width: 50em;
 }
 
-section.bio{
-  width: 10em;
+
+
+section.recco{
+  width: 50em;
 }
+
+
