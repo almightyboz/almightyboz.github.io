@@ -26,17 +26,21 @@ main {
 header img{
   left: 0;
   top: 0;
-  padding: 2em;
-  width: 18px;
-  height: 10px;
+  width: 100%;
 }
 
 header h1{
-  position: relative;
-  left: 65%;
   font-family: Georgia, serif;
+  font-size: 14;
   padding-right: 5em;
   padding-left: 5em;
+}
+
+div.top-navbar{
+  display: inline;
+  text-decoration: none;
+  height: 5px;
+  width: 100%;
 }
 
 li {
@@ -44,41 +48,29 @@ li {
   font-size: 11 pt;
 }
 
-div.navbar{
-  height: 5px;
-  top: 15%;
-  width: 100%;
-}
 
 nav.button{
   background-color: #d3d3d3;
   padding: 10px;
   margin: 15px;
-  width: 30px;
-  float: left;
 }
 
 nav.blog{
   background-color: #dbdbdb;
-  position: absolute;
-  left: 0;
   top: 15%;
   width: 10%;
 }
 
-main section{
+section{
   background-color: #e3e3e3;
-  position: relative;
   padding: 5px;
   margin: 10px;
 }
 
 section.recco{
-  float: right;
   width: 15%
 }
 
 section.bio{
-  float: right;
-  width: 20%;
+  width: 10em;
 }

@@ -1,0 +1,68 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <title>Template Blog page</title>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+  </head>
+
+  <body>
+
+    <div class="header-ribbon">
+      <h2><!-- Title of post-->Why Classes are a thing</h2>
+      <p><!-- Date that post was published--><span id="date">January 17, 2016</span></p>
+      <p><!-- Article subheading -->In which I put soy sauce in my scrambled eggs</p>
+    </div>
+
+    <section class="blog-post"><p>I had a lot of trouble understanding why we need classes at all in Ruby. I mean that. I figured that a lot could be accomplished with methods and local variables, you didn't need classes to write programs. This isn't strictly speaking false, but it pretty naive.</p>
+<p>A class in Ruby is a container that holds linked operations and bits of information. But why build a container? Broadly speaking, keeping it in the container helps make sure that bits of information aren't leaking in or out that will spoil the operations. Holding that process in a container makes it easier to test that the operations all work together, and makes it easier to cobble together other containers to build a more complicated machine.</p>
+<p>But it involves, first and foremost, the cognitive ability to link actions and information that are related in some way, or that operate together. And it can occur down all sorts of domains, and once you start thinking that way, you're stuck.</p>
+<p>Let's talk breakfast. "MakingBreakfast" is a subset of my day in which I conduct a series of specialized tasks in a particular order, and create new objects from raw materials. Of course, I could break it down even further, in different ways. What if I divided my time into class FridgeTasks, class CounterTasks, and class StoveTasks? I could, I suppose. I would prefer to divide the process into activities that all take in the same input to create the same output. Let's take my MakeCoffee class.</p>b
+<code>
+class MakeCoffee
+  attr_accessor :brew
+  def initialize(beans, water)
+    @beans = roasted coffee beans
+    @water = clean tap water
+  end
+
+  def check_beans
+    when @beans.texture
+      case fine
+        @beans.aeropress
+      case coarse
+        @beans.load_machine
+      case whole
+        @beans.grind!
+      end
+    end
+
+    ...
+
+  def make_coffee
+    return @brew
+  end
+
+end</code>
+<p>The output is a direct result of the actions within the class taking place on the inputs. And the variables within the class (instance and temporary) "cover" various entities and abstract concepts as they ride the steps between water and beans and hot brew.</p>
+<p>The point of this thought experiement is to ask the reader to think about grouping together discrete task or event in their daily life based on what bits of information or objects enter or exit a process or location at any time. All this talk is making me hungry, though.</p></section>
+
+    <aside><!-- Navigation pane for site --></aside>
+
+    <aside><!-- Recent cool pictures--></aside>
+
+    <article>
+
+    <article>
+      <ul>
+      <li><a href="https://github.com/almightyboz">I'm on GitHub</a></li>
+      <li><a href="https://twitter.com/allmightyboz">I'm also on Twitter</a></li>
+    </ul>
+    </article>
+    </article>
+
+  </body>
+
+</html>
+
