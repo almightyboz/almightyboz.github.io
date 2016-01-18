@@ -40,10 +40,10 @@ section.header-ribbon h2 {
 }
 
 article {
+  clear: both;
   width: 30;
   height: 10;
   border: 1px solid #008060;
-  position: fixed;
   top: 75%;
   padding: 5px;
 }
