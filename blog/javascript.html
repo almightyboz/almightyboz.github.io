@@ -2,7 +2,7 @@
 
 <html lang="en">
   <head>
-    <title>Template Blog page</title>
+    <title>Week Seven</title>
     <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
     <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
   </head>
@@ -19,11 +19,11 @@
     <p>To Ruby's credit, the language makes it very, very intuitive to do that. The .each method is the most basic way of going over every single item on a list individually, whether one is changing the values or extracting a larger pattern from them. And the each method has many cousins and well-wishers to make sure that you are slicing your list in exactly the way you want. There's each_slice, each_index, each_char(a string method, so I'm cheating), and so forth. </p>
     <p>But if Ruby's loops are several pairs of low-key sneakers (one for running, one for crossfit, one that has really good tread for Chicago Januaries), JavaScript looping functionalities feel like wearing sandals with socks. </p>
     <p>Maybe I want to return every number from 1 to 10, and in doing so print each on a different line. Here's how a Rubyist could get it done.</p>
-    <p>(1..10).each{|number| p number}</p>
+    <pre>(1..10).each{|number| p number}</pre>
     <p>If you know how ranges work (I'm asking it to represent all numbers from 1 to 10), and the versatility of p, then you can see this loop and understand it straightaway. How about this poor thing, though?</p>
-    <p>for(var number= 0; number >= 10; number ++) {
+    <pre>for(var number= 0; number >= 10; number ++) {
       return number; console.log(number);
-      };</p>
+      };</pre>
     <p>asily twice as many characters to accomplish the same function! (And that's squishing the return and print statements onto the same line.) So it's established that I like conscision and I hate repeating myself. (One might even say I dislike redundancy or enjoy not repeating myself.) What are the benefits of JavaScripts notation? For one thing, creating a variable (in the above case, called "number") within the body of the loop seems bold. </p>
     <p>The long answer is that I'm still figuring it out. What I've learned so far is that JavaScript's for loops are more or less borrowed wholesale from C and C++. What I do know is that this is yet another another way of thinking about the same problem/functionality. </p>
     <p>I can say, okay, do x to every value in the array until there's no more array left. The same words, only refined, would mean that I am beginning a loop at value X, that the loop will terminate itself until value Y, and that each time the function finishes work on the function being looped around and over and through. Same task, very different ways to make it happen. In JS's case, it is an older language and it lacks the special syntax that make it easier for the newbie programmer.</p>
