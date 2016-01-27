@@ -1,19 +1,38 @@
 /*
-html {
-  margin: 5px;
-  padding: 10px;
-} */
+Thoughts/Impressions
+Want to have top image that greets person
+They scroll down to see the rest of my personal site
+*/
 
-p {
-  font-family: Georgia, serif;
-  font-size: 11pt;
+ header img{
+  left: 0;
+  top: 0;
+  width: 100%;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
 }
 
-a {
-  text-decoration: none;
+header h1{
   font-family: Georgia, serif;
-  font-size: 12pt;
+  position: absolute;
+  top: 4em;
+  width: 100%;
+  text-align: center;
+  font-size: 30pt;
 }
+
+main {
+  background-color: #326872;
+}
+
+
+div.container {
+  background-color: white;
+  margin-right: 1em;
+  margin-left: 1em;
+}
+
+
 /*
 header{
   background-color: #e3e3e3;
@@ -23,58 +42,73 @@ main {
   position: relative;
 }
 */
-header img{
-  left: 0;
-  top: 0;
+
+nav.navbar{
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #326872;
   width: 100%;
-  height: 30em;
-  opacity: 0.4;
-  filter: alpha(opacity=40);
 }
 
-header h1{
-  font-family: Georgia, serif;
-  font-size: 14;
-  padding-right: 5em;
-  padding-left: 5em;
+div.button{
+  float: left;
+  background-color: #326872
 }
 
-div.top-navbar{
-  display: inline;
+div.button a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  height: 5px;
-  width: 100%;
+}
+
+div.button a:hover {
+  background-color: #32726c;
+}
+
+p {
+  font-family: Georgia, serif;
+  font-size: 14pt;
+}
+
+a {
+  text-decoration: none;
+  font-family: Georgia, serif;
+  color: black;
+  font-size: 12pt;
 }
 
 section.bio{
-  width: 50em;
 }
 
-nav.top-navbar{
-  background-color: #326872;
-  padding: 10px;
-  margin: 15px;
-}
 
-li {
+/*li {
   font-family: Georgia, serif;
   font-size: 11 pt;
-}
+}*/
 
 section{
-  background-color: #e3e3e3;
-  padding: 5px;
-  margin: 10px;
 }
 
 nav.blog-index{
-  background-color: #dbdbdb;
-  top: 15%;
-  width: 50em;
 }
 
-section.recco{
-  width: 50em;
+.recco{
+  text-align: center;
+  clear: both;
+}
+.recco ul {
+  list-style: noe;
 }
 
+.recco a:hover {
+  color: red;
+}
 
+nav.bottom-contact {
+  position: fixed;
+  bottom 0;
+  width: 100%;
+}
