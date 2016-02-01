@@ -1,8 +1,8 @@
-!doctype html>
+<!doctype html>
 
 <html lang="en">
   <head>
-    <title>Template Blog page</title>
+    <title>Test-Driven Development</title>
     <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
     <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
   </head>
@@ -13,7 +13,7 @@
 
       <nav class="navbar">
         <div class ="button"><a href="../index.html">Home</a></div>
-        <div class ="button"><a href="#">Blog</a></div>
+        <div class ="button"><a href="index.html">Blog</a></div>
         <div class ="button"><a href="../about/index.html">About</a></div>
         <div class ="button"><a href="../projects/index.html">Projects</a></div>
       </nav>
@@ -21,19 +21,29 @@
     <div class="container">
 
     <div class="header-ribbon">
-      <h2><!-- Title of post-->Blog Post Title!</h2>
-      <p><!-- Date that post was published--><span id="date">Date</span></p>
-      <p><!-- Article subheading -->Subheading</p>
+      <h2>You down with TDD?<br>Yeah, you know me.</h2>
+      <p><span id="date">Sunday, January 31, 2016</span></p>
+      <p>In Which I Keep a Promise to a Friend</p>
     </div>
 
-    <section class="blog-post"><p><!-- Blog post-->Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></section>
+    <section class="blog-post"><p>When I told my friend S. that I was teaching myself how to code, he asked me what language I was learning. I told him. His long pause indicated he found my choice satisfactory. Then he said "You should look up TDD. Like, right now." Months later I showed him the code from a coding problem on a job application, my first real class structure. S. took a glance and informed me that, if I were applying to his company, I would immediately get 25% of my score deducted for not having tests. I still didn't know what he meant.</p>
+    <p>I'll back up. S and I came up together in college. Neither of us studied computer science, although that hasn't stopped him from having an extremely stable and happy job as a programmer. Bright doesn't begin to describe him, etc. The point is that this is more important, so I fought to get to know what he mean.</p>
+    <p>Before TDD, there was the Waterfall model of sequential software design. The ethos grew out of the manufacturing and constructions industries, and was for a while the preferred standard for the United States Department of Defense. In the waterfall model, several phases must occur in strict order for the software to pass muster, no sending information backwards or forwards. More difficultly, software designed along the lines of this paradigm was inferior to maintain. Clients weren't able to change their software products/features to meet new market data, designers persisted in design ideas they knew to be ugly or impractical, since the idea was preserved at the lower level.</p>
+    <p>That's because Test-driven development works testing into the cycle of production at all times. Notably, the user writes the automated test cases they want their code to pass before writing the code itself. The idea for the code is conceptualized around it's ability to pass the tests, based on the specification and requirements of the code. One works in a cycle of writing a test, writing enough code for the test to fail(and in doing so testing that the test is working), writing some code, running tests, and refactoring the code base when it passes all its relevant tests. Each step is small, only adding a small unit of code each time. </p>
+    <p>TDD makes programmers' lives simpler by focusing on writing tests that will accurately test the features the code will do, and on writing just enough code to pass the most recent round of tests. A team of people can collaborate on writing tests and units of code for aspects of the library, and "meet in the middle", as it were. Some studies have it making programmers more productive.</p>
+    <p>TDD also has a positive track record for DRY, maintainable code that can be used for years. Each entity writes small units of code at a time and tests them before incorporating them into the larger program. Instead of excessive debugging, the program can rely upon it's many revertible checkpoints and go back to a time when it worked. It is a very effective system, which is why TDD and it's variants are used by many major technological concerns.</p>
+    <p>I hope I did right by you in this post, S.</p>
+    <p>Sources I used for this post:</p>
+    <ul>
+      <li><a href="https://en.wikipedia.org/wiki/Test-driven_development">TDD on wikipedia</a></li>
+      <li><a href="http://c2.com/cgi/wiki?TestDrivenDevelopment">Cool picture representation of TDD</a></li>
+      <li><a href="http://www.agiledata.org/essays/tdd.html">An essay</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Waterfall_model">Waterfall model</a></li>
+<!--       <li><a href="">This</a></li>
+      <li><a href="">This</a></li> -->
+    </ul>
+  </section>
 
-    <aside><!-- Navigation pane for site --></aside>
 
     <aside><!-- Recent cool pictures--></aside>
 
@@ -53,3 +63,7 @@
 
 </html>
 
+<!-- What is test driven development?
+Who does it?
+Why is it important?
+What are its downsides? -->
