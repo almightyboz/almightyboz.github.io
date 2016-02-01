@@ -1,32 +1,30 @@
 div.header-ribbon{
-  float: right;
-  position: static;
   padding: 1px;
   margin: 2px;
-
 }
 
-section.header-ribbon h2 {
+/*section.header-ribbon h2 {
   font-family: "Futura";
-  color: white;
-}
+  color: black;
+}*/
 
-.header-ribbon {
+/*.header-ribbon {
   background-color: black;
-}
+}*/
 
 .header-ribbon p {
-  color: white;
+  color: #326872;
 }
 
-.blog-post {
+/*.blog-post {
   text-align: left;
   text-indent: 1px;
-}
+}*/
 
 p {
   font-size: 12pt;
-  font-family: Georgia, serif;
+  font-family: serif;
+  text-indent: 25px;
 }
 
 .blog-post span {
