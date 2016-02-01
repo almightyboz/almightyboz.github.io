@@ -75,7 +75,6 @@ div.button a:hover {
 
 p {
   font-family: Georgia, serif;
-  font-size: 14pt;
 }
 
 /*a {
@@ -110,5 +109,5 @@ nav.bottom-contact {
 }
 
 footer.button {
-  float: right;
+  float: left;
 }
