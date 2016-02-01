@@ -1,49 +1,34 @@
-html{
-  color: #F1E8DC;
-}
-
 div.header-ribbon{
-  width: 85%;
-  height: 10%;
-  float: right;
-  position: static;
-  border: 4px solid #800020;
-  background-color: #800020;
   padding: 1px;
   margin: 2px;
-
 }
 
-section.header-ribbon h2 {
+/*section.header-ribbon h2 {
   font-family: "Futura";
-  color: #FFFF32;
-}
-
-.header-ribbon  p {
-  color: #FFFFAD;
-}
-
-.blog-post {
-  width: 65%;
-  height: 75%;
-  text-indent: 5px;
-  background-color: #f6f0e8;
-  padding: 12px;
-  border-style: inset;
-  margin: 8px;
   color: black;
-  float: right;
+}*/
+
+/*.header-ribbon {
+  background-color: black;
+}*/
+
+.header-ribbon p {
+  color: #326872;
 }
 
-.blog-post p span {
-  font-family: italic;
+/*.blog-post {
+  text-align: left;
+  text-indent: 1px;
+}*/
+
+p {
+  font-size: 12pt;
+  font-family: serif;
+  text-indent: 25px;
 }
 
-article {
-  clear: both;
-  width: 30;
-  height: 10;
-  border: 1px solid #008060;
-  top: 75%;
-  padding: 5px;
+.blog-post span {
+  font-style: bold;
+  margin: 3em;
+  font-size: 14pt;
 }
