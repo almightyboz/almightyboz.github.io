@@ -25,10 +25,9 @@ ul {
   list-style: none;
 }
 
-main {
+body {
   background-color: #326872;
 }
-
 
 div.container {
   background-color: white;
@@ -38,18 +37,7 @@ div.container {
   text-indent: 30px;
 }
 
-
-/*
-header{
-  background-color: #e3e3e3;
-}
-
-main {
-  position: relative;
-}
-*/
-
-nav.navbar{
+nav .navbar{
   margin: 0px;
   padding: 0px;
   overflow: hidden;
@@ -58,7 +46,7 @@ nav.navbar{
 }
 
 div.button{
-  float: left;
+  display: inline-block;
   background-color: #326872
 }
 
@@ -76,6 +64,7 @@ div.button a:hover {
 
 p {
   font-family: Georgia, serif;
+  text-align: left;
 }
 
 /*a {
@@ -83,15 +72,6 @@ p {
   font-family: Georgia, serif;
   color: black;
   font-size: 12pt;
-}*/
-
-section.bio{
-}
-
-
-/*li {
-  font-family: Georgia, serif;
-  font-size: 11 pt;
 }*/
 
 .recco{
@@ -102,13 +82,8 @@ section.bio{
   color: red;
 }
 
-nav.bottom-contact {
-  text-align: center;
-  position: fixed;
+footer nav {
+  text-align: right;
   bottom 0;
   width: 100%;
-}
-
-footer.button {
-  float: left;
 }
