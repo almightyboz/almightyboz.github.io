@@ -1,7 +1,11 @@
-/*div.container{
+div.container{
   display: block;
   background-color: #326872;
-};*/
+};
+
+.navbar {
+  border: 5px #fff0f2 solid;
+}
 
 div.card {
   display: inline-block;

@@ -1,29 +1,17 @@
 div.header-ribbon{
   padding: 1px;
   margin: 2px;
+  font-family: 'Raleway', sans-serif;
 }
-
-/*section.header-ribbon h2 {
-  font-family: "Futura";
-  color: black;
-}*/
-
-/*.header-ribbon {
-  background-color: black;
-}*/
 
 .header-ribbon p {
-  color: #326872;
+  color: #fff0f2;
+  font-family: 'Raleway', sans-serif;
 }
-
-/*.blog-post {
-  text-align: left;
-  text-indent: 1px;
-}*/
 
 p {
   font-size: 12pt;
-  font-family: serif;
+  font-family: 'Raleway', sans-serif;
   text-indent: 25px;
 }
 
