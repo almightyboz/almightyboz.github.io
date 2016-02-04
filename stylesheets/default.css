@@ -8,79 +8,72 @@ They scroll down to see the rest of my personal site
   left: 0;
   top: 0;
   width: 100%;
-  opacity: 0.4;
-  filter: alpha(opacity=40);
 }
 
-header h1 {
-  font-family: Freight Big;
+header p {
+  font-family: 'Raleway Dots';
   position: absolute;
-  top: 0em;
+  top: 1em;
   width: 100%;
   text-align: center;
-  font-size: 82pt;
-  color: white;
+  font-size: 72pt;
 }
 
-h2 h3 h4 h5 h6 {
-  font-family: Freight Display;
+h3 {
+  font-family: 'Raleway', sans-serif;
 }
 
 ul {
   list-style: none;
-  font-family: Freight Sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
-body {
-  background-color: #326872;
-}
-
-.about {
-
-}
 
 div.container {
-  background-color: white;
   margin-right: 1em;
   margin-left: 1em;
   text-align: center;
   text-indent: 30px;
+  padding-bottom: 1em;
 }
 
 nav .navbar{
   margin: 0px;
   padding: 0px;
   overflow: hidden;
-  background-color: #326872;
+  background-color: black;
   width: 100%;
 }
 
 div.button{
   display: inline-block;
-  background-color: #326872
+  background-color: white;
 }
 
 div.button a {
   display: block;
-  color: white;
   text-align: center;
   padding: 14px 16px;
+  border-right: 5px #fff0f2 solid;
   text-decoration: none;
-  font-family: Freight Text;
+  font-family: 'Raleway' serif;
+  color: black;
 }
 
 div.button a:hover {
-  background-color: #32726c;
+  background-color: #fff0f2;
 }
 
-section p {
-  font-family: Freight Sans-serif;
+.about p {
+  font-family: 'Raleway', sans-serif;
   text-align: left;
   padding: 2em;
+  border-bottom: 5px #fff0f2 solid;
 }
 
 .recco{
   clear: both;
+/*  border-bottom: 5px #fff0f2 solid;*/
 }
 
 .recco a:hover {
@@ -88,7 +81,14 @@ section p {
 }
 
 footer nav {
+  border-top: 5px #fff0f2 solid;
   text-align: right;
   bottom 0;
   width: 100%;
+/*  border-left: 5px #fff0f2 solid;*/
+}
+
+footer nav div {
+  border-right: none;
+  border-left: 5px #fff0f2 solid;
 }
