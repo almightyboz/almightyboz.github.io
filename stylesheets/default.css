@@ -38,7 +38,7 @@ div.container {
 }
 
 nav .navbar{
-  margin: 0px;
+  margin: 5px;
   padding: 0px;
   overflow: hidden;
   width: 100%;
@@ -64,9 +64,12 @@ div.button a:hover {
   background-color: #fff0f2;
 }
 
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
 .about p {
   border-top: 5px #fff0f2 solid;
-  font-family: 'Raleway', sans-serif;
   text-align: center;
   padding: 4em;
   border-bottom: 5px #fff0f2 solid;
@@ -75,7 +78,6 @@ div.button a:hover {
 .recco{
   clear: both;
   padding: 4em;
-/*  border-bottom: 5px #fff0f2 solid;*/
 }
 
 .recco a:hover {
@@ -87,7 +89,6 @@ footer nav {
   text-align: right;
   bottom 0;
   width: 100%;
-/*  border-left: 5px #fff0f2 solid;*/
 }
 
 footer nav div {

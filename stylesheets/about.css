@@ -1,0 +1,21 @@
+section.container {
+  margin-top: 1em;
+  border-top: 5px #fff0f2 solid;
+  display: inline-block;
+}
+
+.container div {
+  float: left;
+  width: 40%;
+  padding: 3em;
+  text-indent: 20px;
+  margin-top: 1em
+}
+
+aside img {
+  margin: 1em;
+  width: 18%;
+  float: right;
+  margin-right: 3em
+}
+
