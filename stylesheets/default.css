@@ -30,11 +30,10 @@ ul {
 
 
 div.container {
-  margin-right: 1em;
-  margin-left: 1em;
+  margin: 1em;
   text-align: center;
   text-indent: 30px;
-  padding-bottom: 1em;
+  padding: 1em;
 }
 
 nav .navbar{
@@ -55,7 +54,7 @@ div.button a {
   padding: 14px 16px;
   border-right: 5px #fff0f2 solid;
   text-decoration: none;
-  font-family: 'Raleway' serif;
+  font-family: 'Raleway', serif;
   font-size: 18;
   color: black;
 }
