@@ -30,15 +30,14 @@ ul {
 
 
 div.container {
-  margin-right: 1em;
-  margin-left: 1em;
+  margin: 1em;
   text-align: center;
   text-indent: 30px;
-  padding-bottom: 1em;
+  padding: 1em;
 }
 
 nav .navbar{
-  margin: 0px;
+  margin: 5px;
   padding: 0px;
   overflow: hidden;
   width: 100%;
@@ -55,7 +54,7 @@ div.button a {
   padding: 14px 16px;
   border-right: 5px #fff0f2 solid;
   text-decoration: none;
-  font-family: 'Raleway' serif;
+  font-family: 'Raleway', serif;
   font-size: 18;
   color: black;
 }
@@ -64,9 +63,12 @@ div.button a:hover {
   background-color: #fff0f2;
 }
 
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
 .about p {
   border-top: 5px #fff0f2 solid;
-  font-family: 'Raleway', sans-serif;
   text-align: center;
   padding: 4em;
   border-bottom: 5px #fff0f2 solid;
@@ -75,7 +77,6 @@ div.button a:hover {
 .recco{
   clear: both;
   padding: 4em;
-/*  border-bottom: 5px #fff0f2 solid;*/
 }
 
 .recco a:hover {
@@ -87,7 +88,6 @@ footer nav {
   text-align: right;
   bottom 0;
   width: 100%;
-/*  border-left: 5px #fff0f2 solid;*/
 }
 
 footer nav div {
