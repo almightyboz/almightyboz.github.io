@@ -4,7 +4,7 @@ Want to have top image that greets person
 They scroll down to see the rest of my personal site
 */
 
- header img{
+ header img {
   left: 0;
   top: 0;
   width: 100%;
@@ -13,9 +13,10 @@ They scroll down to see the rest of my personal site
 header p {
   font-family: 'Raleway Dots';
   position: absolute;
+  line-height: 80%;
   top: 1em;
   width: 100%;
-  text-align: left;
+  text-align: center;
   font-size: 72pt;
 }
 
@@ -76,7 +77,6 @@ p {
 
 .recco{
   clear: both;
-  padding: 4em;
 }
 
 .recco a:hover {
@@ -93,4 +93,16 @@ footer nav {
 footer nav div {
   border-right: none;
   border-left: 5px #fff0f2 solid;
+}
+
+@media screen and (max-width: : 980px) {
+  header p {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  header p {
+    font-size: 20px;
+  }
 }
