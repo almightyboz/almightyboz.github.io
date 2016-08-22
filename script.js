@@ -1,25 +1,30 @@
+// initialize and empty canvas and place it on the page
 var canvas = document.createElement("canvas");
 var context = canvas.getContext("2d");
 canvas.width = 800;
 canvas.height = 500;
 
+// draw a circle parties on the canvas
 var makeParticle = function(x, y, radius) {
   context.beginPath();
   context.fillStyle = "white"
+  // after setting fill style, draw an arc on the canvas
   context.arc(x, y, radius, 0, Math.PI*2, true);
   context.closePath();
   context.fill();
 }
 
+// initial starting position
 var posX = 20;
 var posY = 100;
-
+// initial velocities
 var vx = 10;
 var vy = -10;
 var gravity = 1;
 
+// draw shapes on the canvas
 setInterval(function() {
-
+  // erase canvas
   context.fillStyle = "black";
   context.fillRect(0,0, canvas.width, canvas.height);
 
@@ -36,13 +41,6 @@ setInterval(function() {
   makeParticle(posX, posY, 10);
 }, 30);
 
-$( document ).ready(function(){
-
-  document.body.appendChild(canvas);
-  context.fillRect(0, 0, canvas.width, canvas.height);
-
-  setInterval();
-
   var particles = {};
   var particleIndex = 0;
   var settings = {
@@ -53,34 +51,30 @@ $( document ).ready(function(){
     gravity: 0.5,
     maxLife: 100
   };
+
+  function Particle() {
+    // establish starting positions and velocities
+    this.x = settings.startingX;
+    this.y = settings.startingY;
+    //random X and Y velocities
+    this.vx = Math.random() * 20 - 10;
+    this.vy = Math.random() * 20 - 5;
+    // add new particle to the index
+    particleIndex ++;
+    particles[particleIndex] = this;
+    this.id = particleIndex;
+    // a counter to use to determine when to have particle vanish
+    this.life = 0;
+  }
+
+$( document ).ready(function(){
+
+  document.body.appendChild(canvas);
+  context.fillRect(0, 0, canvas.width, canvas.height);
+
+  // setInterval();
+
+
+
+
 });
-
-
-
-// function Particle(x,y) {
-//   this.x = this.oldX = x;
-//   this.y = this.oldY = y;
-// }
-
-// Particle.prototype.integrate = function() {
-//   var velocityX = this.x - this.oldX;
-//   var velocityY = this.y - this.oldY;
-//   this.oldX = this.x;
-//   this.oldY = this.y;
-//   this.x += velocityX;
-//   this.y +- velocityY;
-// };
-
-// Particle.prototype.attract = function(x, y){
-//   var dx = x - this.x;
-//   var dy = y - this.y;
-//   var distance = Math.sqrt(dx * dx + dy * dy);
-//   this.x =+ dx / distance;
-//   this.y += dy / distance;
-// };
-
-// for (var i=0; i < particles.length; i++) {
-//   particles[i].attract(mouse.x, mouse.y);
-//   particles[i].integrate();
-//   particles[i].draw();
-// }
