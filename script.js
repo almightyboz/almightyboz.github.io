@@ -21,6 +21,7 @@ var posY = 100;
 // var vx = 10;
 // var vy = -10;
 // var gravity = 1;
+// var gui = new dat.GUI();
 
 
 $( document ).ready(function(){
@@ -103,5 +104,13 @@ $( document ).ready(function(){
       particles[i].draw();
     }
   }, 30);
+
+  // gui.add(settings, 'density', 0,5 );
+  // gui.add(settings, 'particleSize', 1, 50 );
+  // gui.add(settings, 'gravity', -2, 2 );
+  // gui.add(settings, 'startingY', 0, canvas.height * 0.75)
+  // gui.add(settings, 'groundLevel', 0, canvas.height );
+  // gui.add(settings, 'rightWall', canvas.width * 0.6, canvas.width ) ;
+  // gui.add(settings, 'blur', 0.1, 0.9 ) ;
 
 });
