@@ -2,7 +2,7 @@
 var canvas = document.createElement("canvas");
 var context = canvas.getContext("2d");
 canvas.width = $(window).width();
-canvas.height = $(window).height;
+canvas.height = $(window).height();
 
 var colorArray = ['#FFDBFB', '#EFD7FF', '#BDFFEA', '#FAFBDF']
 
