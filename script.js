@@ -1,19 +1,16 @@
 // initialize and empty canvas and place it on the page
 var canvas = document.createElement("canvas");
+// $('<canvas/>', { id: 'mycanvas', height: canHeight, width: canWidth});
 var context = canvas.getContext("2d");
 canvas.width = $(window).width();
 canvas.height = $(window).height();
+// canvas.z-index = 0;
 
-var colorArray = ['#FFDBFB', '#EFD7FF', '#BDFFEA', '#FAFBDF']
-
-// initial starting position
-var posX = 150;
-var posY = 200;
+var colorArray = ['#FFDBFB', '#EFD7FF', '#BDFFEA', '#FAFBDF'];
 
 $( document ).ready(function(event){
 
   document.body.appendChild(canvas);
-
 
     var particles = {};
     var particleIndex = 0;
@@ -87,18 +84,16 @@ $( document ).ready(function(event){
     }, 30);
 
     $('canvas').on('click', function(event) {
-
       var newColor = colorArray[Math.round(Math.random() * 4)];
       settings.color = newColor;
 
       if (settings.gravity == 0.5) {
-        settings.gravity = -0.5
+        settings.gravity = -0.5;
       } else {
-        settings.gravity = 0.5
-      };
-
+        settings.gravity = 0.5;
+      }
     });
 
-
+    $(canvas).append("<p style='z-index: 1; color: white'>Woooo</p>");
 
 });
