@@ -4,7 +4,8 @@ var canvas = document.createElement("canvas");
 var context = canvas.getContext("2d");
 canvas.width = $(window).width();
 canvas.height = $(window).height();
-canvas.text = "'The cure for boredom is curiosity. There is no cure for curiosity.'\nPlease stay tuned, something more adequate is coming soon.\n<3\nE.Boz";
+
+var greeting = "<p>\t'The cure for boredom is curiosity. There is no cure for curiosity.' - D. Parker\nPlease stay tuned, something more adequate is coming soon.\n💗\nE.Boz</p>";
 
 var colorArray = ['#FFDBFB', '#EFD7FF', '#BDFFEA', '#FAFBDF'];
 
@@ -22,9 +23,6 @@ $( document ).ready(function(event){
       startingY: Math.random() * canvas.height,
       gravity: 0.5,
       color: "#ffffff"
-      // groundLevel: canvas.height * 0.75,
-      // leftWall: canvas.width * 0.25,
-      // rightWall: canvas.width * 0.75,
     };
 
     function Particle() {
@@ -94,6 +92,6 @@ $( document ).ready(function(event){
       }
     });
 
-    $(canvas).append("<p style='z-index: 1; color: white'>Woooo</p>");
+    $(canvas).append(greeting);
 
 });
