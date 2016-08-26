@@ -4,7 +4,12 @@ var canvas = document.createElement("canvas");
 var context = canvas.getContext("2d");
 canvas.width = $(window).width();
 canvas.height = $(window).height();
-// canvas.z-index = 0;
+canvas.text = "
+'The cure for boredom is curiosity. There is no cure for curiosity.'
+Please stay tuned, something more adequate is coming soon.
+<3
+E.Boz
+"
 
 var colorArray = ['#FFDBFB', '#EFD7FF', '#BDFFEA', '#FAFBDF'];
 
