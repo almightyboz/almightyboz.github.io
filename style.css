@@ -1,7 +1,15 @@
 body {
   margin: 0;
+  background-color: black;
 }
 
-h2 {
-  color: red;
+#text-box{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+h2, h3 {
+  color: white;
 }
