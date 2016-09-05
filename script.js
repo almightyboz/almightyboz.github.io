@@ -1,9 +1,13 @@
+function pluckRandom(list) {
+  list[Math.floor(Math.random() * list.length)];
+}
+
 particlesJS('particles-js',
 
   {
   "particles": {
       "number": {
-        "value": 75,
+        "value": 30,
         "density":{
           "enable": true,
           "value_area": 800
@@ -16,7 +20,7 @@ particlesJS('particles-js',
         "type": "circle",
         "stroke": {
           "width": 0,
-          "color": "#000000"
+          "color": "#EA967A"
         },
         "polygon": {
           "nb_sides": 5
@@ -33,7 +37,7 @@ particlesJS('particles-js',
           }
         },
         "size": {
-          "value": 3,
+          "value": 2,
           "random": true,
           "anim": {
             "enable": false,
@@ -46,16 +50,16 @@ particlesJS('particles-js',
           "enable": true,
           "distance": 300,
           "color": "#EA967A",
-          "opacity": 0.4,
-          "width": 2
+          "opacity": 1,
+          "width": 2.25
         },
         "move": {
           "enable": true,
-          "speed": 5,
+          "speed": 3,
           "direction": "none",
           "random": false,
           "straight": false,
-          "out_mode": "out",
+          "out_mode": pluckRandom(["bounce", "out"]),
           "bounce": false,
           "attract": {
             "enable": false,
@@ -79,21 +83,14 @@ particlesJS('particles-js',
         },
         "modes": {
           "grab": {
-            "distance": 800,
+            "distance": 100,
             "line_linked": {
               "opacity": 1
             }
           },
-          "bubble": {
-            "distance": 800,
-            "size": 80,
-            "duration": 2,
-            "opacity": 0.8,
-            "speed": 3
-          },
           "repulse": {
             "distance": 100,
-            "duration": 0.4
+            "duration": 0.3
           },
           "push": {
             "particles_nb": 4
