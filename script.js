@@ -9,7 +9,7 @@ particlesJS('particles-js',
       "number": {
         "value": 30,
         "density":{
-          "enable": true,
+          "enable": false,
           "value_area": 800
         }
       },
@@ -57,12 +57,12 @@ particlesJS('particles-js',
           "enable": true,
           "speed": 3,
           "direction": "none",
-          "random": false,
+          "random": pluckRandom([true, false]),
           "straight": false,
           "out_mode": pluckRandom(["bounce", "out"]),
-          "bounce": false,
+          "bounce": pluckRandom([true, false]),
           "attract": {
-            "enable": false,
+            "enable": pluckRandom([true, false]),
             "rotateX": 600,
             "rotateY": 1200
           },
@@ -93,7 +93,7 @@ particlesJS('particles-js',
             "duration": 0.3
           },
           "push": {
-            "particles_nb": 4
+            "particles_nb": 2
           },
           "remove": {
             "particles_nb": 2

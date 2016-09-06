@@ -16,12 +16,14 @@ body {
 }
 
 h2, h3 {
-  color: white;
+  color: #EEEEEE;
   font-family: "Playfair Display", serif;
   letter-spacing: 1px;
+  line-height: 1.2;
 }
 
 p {
   font-family: "Josefin Slab", serif;
-  color: white;
+  color: #EEEEEE;
+  font-size: 16px;
 }
