@@ -60,18 +60,28 @@ html, body {
 
 #about_me {
   background: #151515;
+  justify-content: space-around;
 }
 
 #about_me .container {
-  width: 50%;
+  width: 25%;
+  /*padding: 10px;*/
+}
+
+#about_me .container:hover {
   border-style: solid;
   border-color: white;
   border-width: thin;
-  padding: 30px;
+  border-radius: 30px;
+  padding: 20px;
 }
 
 #about_me p {
-  color: white;
+  color: #f5f2d0;
+}
+
+#about_me .container img {
+  width: 98%;
 }
 
 #etc {
